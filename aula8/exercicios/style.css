@@ -1,0 +1,68 @@
+body {
+  background: #f7f7f7;
+  font-family: Arial;
+  margin: 80px;
+  gap: 20px;
+}
+
+.menus {
+  text-align: center;
+  padding: 60px 5px 5px 40px;
+}
+.menu {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+.menu1 {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+.menu2 {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+.menu3 {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+.menu3 {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+.caixa1 {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 100px;
+  grid-template-rows: auto auto auto 1fr;
+  justify-content: end;
+}
+.VERMAIS {
+  background: #ee2211;
+  color: white;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 4px;
+  grid-column: 1;
+  border: 0px;
+}
+
+.bici {
+  max-width: 100%;
+  grid-column: 2;
+  grid-row: 2/5;
+}
+
+.ANIMBUS {
+  grid-column: 1;
+}

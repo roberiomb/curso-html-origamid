@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+  /* Para imagem não estourar, não passar da tela e se ajustar */
+  width: 600px;
+  display: block;
+}
+body {
+  background: lightblue;
+}
+/* div { */
+/* width: 200px; */
+/* A imagem da bici vai respeitar o elemento pai */
+
+/* Arquivo SVG são melhores pq da pra mudar a cor através de codigos e não perde qualdiade quando aumentado */
