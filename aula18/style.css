@@ -1,0 +1,59 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: arial;
+  text-decoration: none;
+  background: #caf;
+  color: #217;
+  transition: .3s; 
+}
+
+a:hover {
+  background: #adf;
+  color: #147;
+}
+a:focus {
+  background: #cfa;
+  color: #371;
+}
+
+a:active {
+  background: #ffa;
+  color: #761;
+
+}
+
+/* a:visited {
+  background: #fda;
+  color: #731;
+}
+ */
+
+/* Pseudos Classes */
+
+.lista-1 li {
+  background: #ffa;
+}
+/* Para lista geral */
+
+.lista-1 li:first-child {
+  background: #caf;
+}
+/* seleciona apenas o primeiro da lista */
+
+.lista-1 li:last-child {
+  background: rgb(55, 170, 34);
+}
+
+.lista-1 li:nth-child(3) {
+  background: rgb(55, 170, 34);
+}
+.lista-2 li {
+  background: #adf;
+}
+
+.lista-2 li:nth-child(even){
+  background: rgb(10, 134, 217);
+}
+/* seletores */

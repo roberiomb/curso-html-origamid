@@ -1,0 +1,43 @@
+h1 {
+  position: relative;
+}
+
+
+h1::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  background: #caf;
+  margin-right: 10px;
+  position: absolute;
+  top: 10px;
+  z-index: -1;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background:linear-gradient(#caf, #848484) ;
+  border: 2px solid #caf(134, 134, 132);
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* h1::after {
+  content: "teste";
+} */
+
+
+/* Pseudo Elements */
