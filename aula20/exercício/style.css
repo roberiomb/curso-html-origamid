@@ -18,6 +18,10 @@ img {
   max-width: 100%;
   display: block;
 }
+.bici img {
+  object-fit: cover;
+  height: 100%;
+}
 
 a {
   text-decoration: none;
@@ -83,7 +87,7 @@ a:hover {
   justify-items: end;
 }
 
-.introducao::before{
+.introducao::before {
   content: "";
   width: 60px;
   height: 4px;
@@ -93,8 +97,6 @@ a:hover {
   right: -30px;
 }
 
-
-
 .botao {
   background: #e21;
   color: #fff;
@@ -103,7 +105,6 @@ a:hover {
   text-transform: uppercase;
   border: 2px solid transparent;
   font-size: 0.8rem;
-  
 }
 .botao:hover {
   background: rgb(95, 26, 20);
@@ -117,6 +118,7 @@ a:hover {
   text-align: right;
   padding: 40px;
   align-self: center;
+  /* word-break: break-all; */
 }
 .vantagens {
   background: #fff;
@@ -142,4 +144,44 @@ a:hover {
 }
 .rodape {
   grid-column: 1;
+}
+
+@media ( width <= 1000px) {
+  .conteudo-vantagens {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    text-align: center;
+    justify-items: end;
+  }
+}
+
+@media (width <= 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 30px;
+  }
+  .conteudo {
+  grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: left;
+  }
+  .introducao::before {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+}
+@media (width <= 400px) {
+  .subtitulo {
+    font-size: 1.0rem;
+}
+p {
+  font-size: 0.5rem;
+}
 }
